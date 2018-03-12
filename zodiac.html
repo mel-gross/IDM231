@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Zoodiac_IDM212</title>
+</head>
+
+<body> 
+    <div class=homeScr>
+        <div id=inputBox>
+            <div class="button" id="openBoxBT"> <h1>Find out your zodiac sign:</h1> </div>
+            <!--this is a button that will open the dialog box (FUN-BUT)-->
+            
+        <div class="input" id="signFormDiv">
+        <p>I just have a couple of questions:</p>
+        <form action="#" method="post" id="signForm" name="signForm">
+                <label for="name">What's your name?</label>
+                <input type="text" name="Name" id="name" placeholder="Jane Doe" required><br>
+    
+                <label for="birthday">What's your birthday?</label>
+                <input type="date" id="birthday" name="birthday" placeholder="mm/dd/yyyy" required>
+                <p class="feedback" hidden> Please enter a valid date. </p><br>
+                <input type="submit" value="Let's Do This!">
+        </form>
+        
+    </div>
+        </div>
+        <div class="signWheel" class="button"><img="pushButton"></div>
+         <!--this is a button that will open the the Zodiac Wheel Page (FUN-BUT)-->
+         <!--add a sticky movment on pull(1) and animation of the index page going up on fullpull(2) (ANIMATION)-->
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
+

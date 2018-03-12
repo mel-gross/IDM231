@@ -1,0 +1,109 @@
+
+/**Questions:
+1. How to make the border be inside the el?
+2. Input boxes are part of the structure?*
+3. Want to know more about cost of computation
+/
+
+
+/**GLOBAL*/
+body{
+    background: url('../graphicWork/background.jpg') repeat; 
+    background-size: 30%;
+}
+
+/**TEXT*/
+p
+{
+    font-size: auto;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    color: beige;
+}
+h1
+{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    color: beige;    
+
+}
+
+
+/**INPUT BOX*/
+#openBoxBT
+{
+    width: 50%;
+    overflow: auto;
+    margin: auto;
+    padding: 1.5rem;
+    background-color: rgb(19, 19, 19);
+    border: .5px solid beige;
+    border-radius: 1rem;
+}
+
+
+/**BUTTONS*/
+.button
+{
+    border: .5px solid beige;
+    border-radius: 1rem;
+}
+
+/**SIGN BOX*/
+
+#signTemplate
+{
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    padding: 1.5rem;
+    background-color: rgb(19, 19, 19);
+    border: .5px solid beige;
+    border-radius: 1rem;
+}
+
+
+
+#inputBox {
+    grid-area: inputBox;
+  }
+
+
+.homeScr {
+    display: grid;
+    grid-template-columns: 100%; 
+    grid-template-rows: auto; 
+    grid-template-areas:  
+      'inputBox';
+    justify-content: flex-start;}
+
+#header{
+    grid-area: header;
+}
+#description{
+    grid-area: description;
+}
+#element{
+    grid-area: element;
+}
+#planet{
+    grid-area: planet;
+}
+#color{
+    grid-area: color;
+}
+
+#signTemplate{
+    display: grid;
+    grid-template-columns: 100%; 
+    grid-template-rows: auto; 
+    grid-template-areas:  
+      'header',
+      'color',
+      'description',
+      'element',
+      'planet';
+}
+
+
+
+     
