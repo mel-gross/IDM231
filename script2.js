@@ -1,8 +1,7 @@
 
 //AJAX object organization of all the Zodiac sign information being appended
 //all properties should have 12 options, that is consistent (by Index#) 
-var objects= { "resultSign":[
-    {"name":["Capricorn","Aquarius","Pisces","Aries","Taurus","Gemni","Cancer","Leo","Virgo","Libra","Scorpio","Sargittarius"]}, 
+var objects= JSON.parse({"name":["Capricorn","Aquarius","Pisces","Aries","Taurus","Gemni","Cancer","Leo","Virgo","Libra","Scorpio","Sargittarius"]}, 
     {"icon":["./graphicWork/capricorn.png","./graphicWork/aquarius.png","./graphicWork/pisces.png","./graphicWork/aries.png","./graphicWork/taurus.png","./graphicWork/gemni.png","./graphicWork/cancer.png","./graphicWork/leo.png","./graphicWork/virgo.png","./graphicWork/libra.png","./graphicWork/scorpio.png","./graphicWork/sargittarius.png"]} ,
     {"description":["You can always find Capricorn at the top of the heap! The Mountain Goat combines its traditional methods with powerful determination to climb the ladder of success each and every day. Classy and reserved, Capricorn likes to play hard, and work harder.",
                     "The worldly Water-bearer is a progressive spirit who’s focused on the greater good. When this rebellious sign isn’t satisfied with the way things are, they’re experts at garnering the support they need to instigate change. Ruled more by the head than the heart, Aquarius’ brilliant ideas and visionary plans inspire us all to raise the bar in our everyday lives.",
@@ -23,8 +22,8 @@ var objects= { "resultSign":[
     {"planetImg":["./graphicWork/saturn.png","./graphicWork/uranus.png","./graphicWork/neptune.png","./graphicWork/mars.png","./graphicWork/venus.png","./graphicWork/mercury.png","./graphicWork/moon.png","./graphicWork/sun.png","./graphicWork/mercury.png","./graphicWork/venus.png","./graphicWork/mars.png","./graphicWork/jupter.png"]},
     {"color":["brown","blue","light green","red","green","yellow","silver","gold","green","pink","black","purple"]},
     {"colorHex":["884500","0040AF","00A26D","950C00","006020","E9E552","999999","DB9400","567600","FFA7D3","000000","6B00FF"]}
-    ]}
-var resultSign = JSON.parse(objects);
+    );
+// var resultSign = JSON.parse(objects);
 const form = document.forms['signForm'];
 var name = document.getElementById("name").value; //username
 var submitForm = document.getElementById("submitForm"); //submit button
