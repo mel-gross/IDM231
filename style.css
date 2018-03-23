@@ -18,7 +18,9 @@ h1
     color: beige;    
 
 }
-
+img{
+    width: 10vw;
+}
 
 /**INPUT BOX*/
 #openBoxBT
@@ -95,8 +97,15 @@ button
     border: .5px solid beige;
     border-radius: 1rem;
     height: auto;
+    justify-items: center;
+    align-items: center;
 }
 
+li{
+    display: inline;
+    float: left;
+}
 
-
-     
+#box{
+    width: 70vw;
+}

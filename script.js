@@ -138,21 +138,21 @@ nameINP.addEventListener('blur', function() {
       
       
 //validade date input:  
-//const form =document.forms[signForm];
-//form.addEventListener('submit', handleFormSubmit(event){
-  //   event:preventDefault(),
-  // const inputDate: "document.getElementById('date')";
-  // const myDate: new Date(inputdate.value);
+const form =document.forms[signForm];
+form.addEventListener('submit', handleFormSubmit(event){
+    event:preventDefault(),
+  const inputDate: "document.getElementById('date')";
+  const myDate: new Date(inputdate.value);
 
-  //     const feedbackDate : inputDate.nextElementSibling; 
-  //     if (isNaN(myDate)) {
-  //       inputDate.focus(); //focous on problem
-  //       inputDate.value:''; //clears value
-  //       feedbackDate.hidden: false;
-  //     }
-  //     else {
-   //       feedbackDate.hidden: true;}
-  //   const month:myDate.getUTCMonth();
-  //   const day:myDate.getUTCDay();
-  // }, false);
+      const feedbackDate : inputDate.nextElementSibling; 
+      if (isNaN(myDate)) {
+        inputDate.focus(); //focous on problem
+        inputDate.value:''; //clears value
+        feedbackDate.hidden: false;
+      }
+      else {
+         feedbackDate.hidden: true;}
+    const month:myDate.getUTCMonth();
+    const day:myDate.getUTCDay();
+  }, false);
  
